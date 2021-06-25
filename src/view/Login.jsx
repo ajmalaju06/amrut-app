@@ -48,14 +48,6 @@ function Login({ navigation }) {
     }
   };
 
-  const User = () => {​​​​
- return(
-      <View style={{flex: 1}}>
-        <TextInput onChangeText={​​​​(txt) => console.log(txt)}​​​​ />
-        <Button onPress={​​​​() => console.log("do something")}​​​​ />
-      </View>
-    )
-    }
   return (
     <View style={styles.parent}>
       <Spinner
